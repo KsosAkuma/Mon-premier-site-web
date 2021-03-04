@@ -1,0 +1,218 @@
+body{
+    margin: auto;
+}
+table{
+    border-collapse:collapse;
+    color: darkred;
+    width: 70%;
+    font-size: 1.2em;
+}
+.tete-tableau{
+    background-color: rgb(190, 133, 59);
+    color: rgb(139, 0, 0);
+    text-align:center;
+    border:2px solid black;
+    font-family: monospace,sans-serif;
+    font-size: large;
+}
+#tete-tableau{
+    background-color: rgb(155, 109, 49);
+}
+thead{
+    background-color: rgb(187, 143, 86);
+    text-align:center;
+    border:2px solid black;
+    font-family: monospace,sans-serif;
+}
+tbody{
+    background-color: rgb(185, 143, 88);
+    text-align: center;
+    border:2px solid black;
+    font-family: monospace,sans-serif;
+}
+th{
+    border:2px solid black;
+    font-family: monospace,sans-serif;
+    
+}
+td{
+    border:2px solid black;
+    border-style: groove;
+    font-family: monospace,sans-serif;
+}
+td, th{
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.ombrage{
+    border-radius: 40% 20% / 20% 40%;
+    width: 50%;
+    border: 1px solid rgb(51, 51, 51);
+    padding:40px;
+    box-shadow: 8px, 8px, 5px black;
+    background-image: linear-gradient(180deg, rgba(145, 98, 45, 0.726), rgba(172, 122, 30, 0.616) 40%, rgba(165, 101, 48, 0.603));
+}
+#First-post{
+    position: relative;
+    left: 10%;
+    width: 50%;
+}
+#First-post p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: lighter;
+    font-size: 1.2em;
+    color:whitesmoke;
+}
+section.top-page{
+    background: url("/image/lac-des-fees.jpg");
+    background-size: cover;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top:20%;
+    font: italic 2em "Fira Sans", serif ;
+    background-color: rgba(243, 205, 135, 0.89);
+    color: rgb(255, 255, 255);
+}
+header {
+    color:rgba(14, 150, 105, 0.911);
+    display: flex;
+    background-color: rgb(63, 36, 32) ;
+    justify-content: space-between;
+    opacity: 90%;
+    font:oblique 20px "Fira Sans", serif;
+}
+.Qui-suisje{
+    background: url("/image/Nice.jpg");
+    background-size: cover;
+    border-top: 5px solid  rgb(63, 36, 32) ;
+    border-bottom: 5px solid  rgb(63, 36, 32) ;
+    padding: 20px;
+}
+.Qui-suisje h1{
+    font: italic  3em Cursive ;
+    font-weight:600;
+    text-align: center;
+    color: wheat;
+}
+.Qui-suisje h3{
+    font: italic  2em Cursive ;
+    font-weight : bolder;
+    color: rgba(87, 201, 144, 0.842);
+    width: fit-content;
+}
+.planning-noob table{
+    position: relative;
+    left: 10%;
+    opacity: 80%;
+    background-color: currentColor;
+}
+.planning-noob h3{
+    position: relative;
+    left: 20%;
+    width: fit-content;
+}
+.planning-noob h6{
+    position: relative;
+    left: 10%;
+    width: fit-content;
+}
+.planning-noob p{
+    position: relative;
+    color: wheat;
+    left: 10%;
+    width: fit-content;
+}
+#Source {
+    position: relative;
+    color: whitesmoke;
+    left: 65%;
+    width: fit-content;
+}
+#Source p{
+    text-decoration: underline;
+}
+h6 {
+    color: white;
+    font-size: 0.8em;
+    width: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.planning-noob{
+    width: fit-content;
+    padding: 2em;
+}
+a{
+color: rgb(139, 0, 0);
+font-weight: 900;
+text-decoration: none;
+font-style: italic;
+}
+.Second-post{
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    left: 55%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:whitesmoke;
+}
+.Second-post h3{
+position: absolute;
+top: 120px;
+
+
+}
+.Second-post p  {
+    position: absolute;
+    top: 200px;
+    border: 1px solid black;
+    border-radius: 25% 15%;
+    padding: 2em;
+    background-image: radial-gradient(rgba(241, 219, 178, 0.788),rgba(189, 130, 22, 0.808));
+}
+.Second-post ol{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 480px;
+    left: 20%;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 15% 25%;
+    padding: 1.5em;
+    background-image: radial-gradient(rgba(241, 219, 178, 0.788),rgba(189, 130, 22, 0.808));
+}
+.Second-post h6{
+    position: absolute;
+    left:50%;
+    top: 720px;
+}
+li a:hover, a:focus, a:active{
+    color:rgba(243, 205, 135, 0.89);
+    background-color:  rgb(104, 47, 39);
+}
+#fleche{
+    position: absolute;
+    left: 48%;
+    width: 50px;
+    height: 25px;
+    border: 1px dashed black;
+    padding: 2px;
+}
+#fleche:hover{
+    background-color: cadetblue;
+}
+footer{
+    background-color: rgb(63, 36, 32) ;
+    background-size: cover;
+    height:20px;
+    width: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px ;
+    padding-left: 5px;
+}

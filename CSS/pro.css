@@ -1,0 +1,107 @@
+
+body{
+    margin: auto;
+}
+section.top-page{
+    background: url("/image/lac-des-fees.jpg");
+    background-size: cover;
+    height:100%;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top:20%;
+    font: italic 2em "Fira Sans", serif ;
+    background-color: rgba(243, 205, 135, 0.89);
+    color: rgb(255, 255, 255);
+}
+header {
+    color:rgba(14, 150, 105, 0.911);
+    display: flex;
+    background-color: rgb(63, 36, 32) ;
+    justify-content: space-between;
+    opacity: 90%;
+    font:oblique 20px "Fira Sans", serif;
+}
+li a:hover, a:focus, a:active{
+    color:rgba(243, 205, 135, 0.89);
+    background-color:  rgb(104, 47, 39);
+}
+a{
+    color: rgb(139, 0, 0);
+    font-weight: 900;
+    text-decoration: none;
+    font-style: italic;
+}
+.pro{
+    background: url("/image/da_vinci_vitruve_luc_viatour.jpg");
+    background-size: cover;
+    height: 100%;
+    border-top: 5px solid  rgb(63, 36, 32) ;
+    border-bottom: 5px solid  rgb(63, 36, 32) ;
+    padding: 50px;
+    color: rgb(92, 53, 5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.grid{
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,0.25fr);
+    grid-template-areas:
+    " one one one one one "
+    " two two . three three "
+    " two two four four four "
+    " . five five five . ";
+    padding: 10px;
+    background-color: rgba(245, 222, 179, 0.514);
+}
+.pro h1{
+    font-size: 2em;
+}
+.pro h1,h3,h6{
+    text-align: center;
+    font-style: italic;
+    color:rgb(126, 32, 20);
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+    text-align: center;
+}
+#fleche{
+    position: absolute;
+    left: 48%;
+    width: 50px;
+    height: 25px;
+    border: 1px dashed black;
+    padding: 2px;
+}
+#fleche:hover{
+    background-color: cadetblue;
+}
+footer{
+    background-color: rgb(63, 36, 32) ;
+    background-size: cover;
+    height:20px;
+    width: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px ;
+    padding-left: 5px;
+}
