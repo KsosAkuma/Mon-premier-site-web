@@ -89,6 +89,7 @@ header {
 .Qui-suisje{
     background: url("../image/Nice.jpg");
     background-size: cover;
+    background-attachment: fixed;
     border-top: 5px solid  rgb(63, 36, 32) ;
     border-bottom: 5px solid  rgb(63, 36, 32) ;
     padding: 20px;
@@ -128,9 +129,10 @@ header {
     width: fit-content;
 }
 #Source {
+    margin: 10px;
+    padding: 5px;
     position: relative;
     color: whitesmoke;
-    left: 65%;
     width: fit-content;
 }
 #Source p{
