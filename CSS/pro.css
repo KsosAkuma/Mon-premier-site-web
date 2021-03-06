@@ -2,7 +2,7 @@ body{
     margin: auto;
 }
 section.top-page{
-    background: url("/image/lac-des-fees.jpg");
+    background: url("../image/lac-des-fees.jpg");
     background-size: cover;
     height:100%;
     padding: 20px;
@@ -35,7 +35,7 @@ a{
     font-style: italic;
 }
 .pro{
-    background: url("/image/da_vinci_vitruve_luc_viatour.jpg");
+    background: url("../image/da_vinci_vitruve_luc_viatour.jpg");
     background-size: cover;
     height: 100%;
     border-top: 5px solid  rgb(63, 36, 32) ;

@@ -2,7 +2,7 @@ body{
     margin: auto;
 }
 section.top-page{
-    background: url("/image/lac-des-fees.jpg");
+    background: url("../image/lac-des-fees.jpg");
     background-size: cover;
     height:100%;
     padding: 20px;
