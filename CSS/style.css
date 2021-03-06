@@ -65,7 +65,7 @@ td, th{
     color:whitesmoke;
 }
 section.top-page{
-    background: url("https://ksosakuma.github.io/image/lac-des-fees.jpg");
+    background: url("/image/lac-des-fees.jpg");
     background-size: cover;
     padding: 20px;
 }
