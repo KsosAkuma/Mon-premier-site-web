@@ -35,7 +35,7 @@ a{
     font-style: italic;
 }
 .pro{
-    background: url("/image/vitruv.jpg");
+    background-image: url("/image/da_vinci_vitruve_luc_viatour.jpg");
     background-size: cover;
     height: 100%;
     border-top: 5px solid  rgb(63, 36, 32) ;
