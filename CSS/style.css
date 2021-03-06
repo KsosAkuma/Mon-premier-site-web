@@ -87,7 +87,7 @@ header {
     font:oblique 20px "Fira Sans", serif;
 }
 .Qui-suisje{
-    background: url("/image/Nice.jpg");
+    background: url("../image/lac-des-fees.jpg");
     background-size: cover;
     border-top: 5px solid  rgb(63, 36, 32) ;
     border-bottom: 5px solid  rgb(63, 36, 32) ;
