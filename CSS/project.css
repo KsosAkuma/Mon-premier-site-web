@@ -88,6 +88,7 @@ h2{
     font-size: 1.3em;
     opacity: 0;
     margin:5px;
+    overflow: hidden;
 }
 .titre_projet{
     margin-top: 20%;
@@ -104,7 +105,6 @@ h2{
 .one:hover{
     background-color: #FFCCCC;
     transform: translate(40%);
-    overflow: visible;
     z-index: 1;
     opacity: 1;
     width: 130%;
@@ -123,7 +123,6 @@ h2{
 .two:hover{
     background-color: #FFCCCC;
     transform: translate(-75%);
-    overflow: visible;
     z-index: 1;
     opacity: 1;
     width: 130%;
@@ -142,7 +141,6 @@ h2{
 .three:hover{
     background-color: #FFCCCC;
     transform: translate(10%);
-    overflow: visible;
     z-index: 1;
     opacity: 1;
     width: 130%;
@@ -161,7 +159,6 @@ h2{
 .four:hover{
     background-color: #FFCCCC;
     transform: rotate(1turn) translate(-20%);
-    overflow: visible;
     z-index: 1;
     opacity: 1;
     width: 130%;
@@ -181,7 +178,6 @@ h2{
 .five:hover{
     background-color: #FFCCCC;
     transform: translate(-50%);
-    overflow: visible;
     z-index: 1;
     opacity: 1;
     width: 130%;
@@ -200,7 +196,6 @@ h2{
 .six:hover{
     background-color: #FFCCCC;
     transform: translate(40%);
-    overflow: visible;
     z-index: 1;
     opacity: 1;
     width: 130%;
@@ -219,7 +214,6 @@ h2{
 .seven:hover{
     background-color: #FFCCCC;
     transform: translate(-75%);
-    overflow: visible;
     z-index: 1;
     opacity: 1;
     width: 130%;
