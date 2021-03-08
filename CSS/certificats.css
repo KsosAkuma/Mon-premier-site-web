@@ -61,7 +61,7 @@ h2{
     width: 350px;
     height: 250px;
     /* background-color: rgb(127, 255, 212); */
-    background-image: url(/image/cert-html.jpg);
+    background-image: url(../image/cert-html.jpg);
     background-size: cover;
     justify-content: space-between;
     margin:0;
