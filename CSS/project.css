@@ -27,12 +27,14 @@ header {
 li a:hover, a:focus, a:active{
     color:rgba(243, 205, 135, 0.89);
     background-color:  rgb(104, 47, 39);
+    border-radius: 5% / 10%;
 }
 a{
     color: rgb(139, 0, 0);
     font-weight: 900;
     text-decoration: none;
     font-style: italic;
+    padding: 1px 5px 1px 5px;
 }
 .page .background{
     border-top: 5px solid  rgb(63, 36, 32) ;
@@ -74,14 +76,14 @@ h2{
 .grid > div{
     text-align: center;
     padding: 25px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 15%;
     box-sizing: border-box;
-    background: radial-gradient(rgba(165, 65, 19, 0.507)60%, rgba(19, 95, 19, 0.507));
+    background: radial-gradient(rgba(236, 95, 29, 0.486)60%, rgba(208, 228, 35, 0.781));
     width: 200px;
     height: 200px;
     overflow: hidden;
-    transition: width 2s, height 2s, background-color 2s, transform 3s, overflow 5s, z-index 0s, opacity 3s ;
+    transition: width 3s, height 3s, background-color 3s, transform 3s, opacity 3s ;
 }
 .grid p{
     color: rgb(0, 45, 129);

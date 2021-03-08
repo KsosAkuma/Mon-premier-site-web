@@ -148,12 +148,6 @@ h6 {
     width: fit-content;
     padding: 2em;
 }
-a{
-color: rgb(139, 0, 0);
-font-weight: 900;
-text-decoration: none;
-font-style: italic;
-}
 .Second-post{
     position: absolute;
     width: 30%;
@@ -196,6 +190,15 @@ top: 120px;
 li a:hover, a:focus, a:active{
     color:rgba(243, 205, 135, 0.89);
     background-color:  rgb(104, 47, 39);
+    border-radius: 5% / 10%;
+    box-shadow: -3px 0px 5px 5px rgba(206, 124, 31, 0.63),3px 0px 5px 5px rgba(112, 83, 3, 0.911);
+}
+a{
+    color: rgb(139, 0, 0);
+    font-weight: 900;
+    text-decoration: none;
+    font-style: italic;
+    padding: 1px 5px 1px 5px;
 }
 #fleche{
     position: absolute;

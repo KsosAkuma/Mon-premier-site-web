@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section.top-page{
+    background: url("../image/lac-des-fees.jpg");
+    background-size: cover;
+    height:100%;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top:20%;
+    font: italic 2em "Fira Sans", serif ;
+    background-color: rgba(243, 205, 135, 0.89);
+    color: rgb(255, 255, 255);
+}
+header {
+    color:rgba(14, 150, 105, 0.911);
+    display: flex;
+    background-color: rgb(63, 36, 32) ;
+    justify-content: space-between;
+    opacity: 90%;
+    font:oblique 20px "Fira Sans", serif;
+}
+li a:hover, a:focus, a:active{
+    color:rgba(243, 205, 135, 0.89);
+    background-color:  rgb(104, 47, 39);
+    border-radius: 5% / 10%;
+    box-shadow: -3px 0px 5px 5px rgba(206, 124, 31, 0.63),3px 0px 5px 5px rgba(112, 83, 3, 0.911);
+}
+a{
+    color: rgb(139, 0, 0);
+    font-weight: 900;
+    text-decoration: none;
+    font-style: italic;
+    padding: 1px 5px 1px 5px;
+}
+.container{
+    background-image: repeating-linear-gradient(30deg, rgba(248, 159, 43, 0.692) 20%,rgba(235, 152, 0, 0.658) 25%,rgb(89, 98, 223)65% );
+    width: 100%;
+    height: 80em;
+    position: relative;
+    margin: 0;
+    border-top: 5px solid  rgb(63, 36, 32) ;
+    border-bottom: 5px solid  rgb(63, 36, 32) ;
+}
+h2{
+    font-size: 3em;
+    font-family: monospace;
+    font-weight: 800;
+    margin-top: 3.5em;
+    text-align: center;
+}
+.certif{
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    margin:0;
+    border: 0px solid black;
+    left:calc(50% - 150px);
+    top: 25%;
+    border-radius: 5% 10% / 10% 5%;
+    box-shadow: 5px 5px 50px lightcoral;
+}
+.certif:nth-child(2){
+    left: 10%;
+    top: 50%;
+}
+.certif:nth-child(3){
+    left: 70%;
+    top: 50%;
+}
+.certif:nth-child(4){
+    top: 75%;
+}
+#fleche{
+    position: absolute;
+    left: 48%;
+    width: 50px;
+    height: 25px;
+    border: 1px dashed black;
+    padding: 2px;
+}
+#fleche:hover{
+    background-color: cadetblue;
+}
+footer{
+    background-color: rgb(63, 36, 32) ;
+    background-size: cover;
+    height:20px;
+    width: auto;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px ;
+    padding-left: 5px;
+}
