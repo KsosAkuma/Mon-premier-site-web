@@ -48,22 +48,25 @@ a{
     border-bottom: 5px solid  rgb(63, 36, 32) ;
 }
 h2{
-    font-size: 3em;
-    font-family: monospace;
-    font-weight: 800;
-    margin-top: 3.5em;
+    font-size: 4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(139, 0, 0);
+    font-weight: 500;
+    margin-top: 2em;
     text-align: center;
 }
 .certif{
     display: flex;
     position: absolute;
-    width: 300px;
-    height: 200px;
-    background-color: aquamarine;
+    width: 350px;
+    height: 250px;
+    background-color: rgb(127, 255, 212);
+    background-image: url(../image/cert-html.jpg);
+    background-size: cover;
     justify-content: space-between;
     margin:0;
     border: 0px solid black;
-    left:calc(50% - 150px);
+    left:calc(50% - 175px);
     top: 25%;
     border-radius: 5% 10% / 10% 5%;
     box-shadow: 5px 5px 50px lightcoral;
@@ -71,6 +74,8 @@ h2{
 .certif:nth-child(2){
     left: 10%;
     top: 50%;
+    background-image: url(../image/cert-css.jpg);
+    background-size: cover;
 }
 .certif:nth-child(3){
     left: 70%;
