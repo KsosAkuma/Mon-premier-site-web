@@ -202,7 +202,7 @@ a{
 }
 #fleche{
     position: absolute;
-    left: 48%;
+    left: calc(50% - 12.5px);
     width: 50px;
     height: 25px;
     border: 1px dashed black;
