@@ -28,6 +28,7 @@ li a:hover, a:focus, a:active{
     color:rgba(243, 205, 135, 0.89);
     background-color:  rgb(104, 47, 39);
     border-radius: 5% / 10%;
+    box-shadow: -3px 0px 5px 5px rgba(206, 124, 31, 0.63),3px 0px 5px 5px rgba(112, 83, 3, 0.911);
 }
 a{
     color: rgb(139, 0, 0);
@@ -83,7 +84,7 @@ h2{
     width: 200px;
     height: 200px;
     overflow: hidden;
-    transition: width 3s, height 3s, background-color 3s, transform 3s, opacity 3s ;
+    transition:all  2s ease-out ;
 }
 .grid p{
     color: rgb(0, 45, 129);
@@ -229,7 +230,7 @@ h2{
 }
 #fleche{
     position: absolute;
-    left: calc(50% - 12.5px);
+    left: calc(50% - 25px);
     width: 50px;
     height: 25px;
     border: 1px dashed black;
@@ -247,4 +248,67 @@ footer{
     padding-right: 5px;
     padding-bottom: 20px ;
     padding-left: 5px;
+}
+#lab-ch{
+    display: none;
+    margin: 5px;
+    background: linear-gradient( rgb(63, 36, 32)0%, rgb(63, 36, 32)20%, transparent 21%, transparent 40%, rgb(63, 36, 32) 41%,
+     rgb(63, 36, 32)60%, transparent 61%, transparent 80%, rgb(63, 36, 32) 81%,  rgb(63, 36, 32) 100%);
+     opacity: 0.9;
+    border-radius: 15%;
+    width: 20px;
+    height: 20px;
+}
+#ch{
+    display: none;
+}
+@media (max-width:960px){
+    header{
+        display: none;
+    }
+    nav ul{
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        width: auto;
+        transform: translate(-1000px,0);
+        transition: all 1s ease;
+        padding: 0;
+        margin: 0;
+    }
+    .certif{
+        display: block;
+        position: initial;
+        margin: 2% 15%;
+        width: 75%;
+
+    }
+    h2{
+        margin: 15%;
+        font-size: 2.5em;
+    }
+    #ch:checked+nav ul{
+        transform: translate(0px,0);
+    }
+    #lab-ch{
+        display: block;
+    }
+    .grid{
+        display: block;
+    }
+    .grid > div{
+        margin: 15% 0%;
+        width: 95%;
+    }
+    .titre_projet{
+        margin: 5%;
+        padding: 5%;
+    }
+    .grid > div:hover{
+        width: 100%;
+        height: 100%;
+        transform: none;
+        margin: 0;
+    }
 }

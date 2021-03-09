@@ -41,7 +41,7 @@ a{
 .container{
     background-image: repeating-linear-gradient(30deg, rgba(248, 159, 43, 0.692) 20%,rgba(235, 152, 0, 0.658) 25%,rgb(89, 98, 223)65% );
     width: 100%;
-    height: 80em;
+    height: 85em;
     position: relative;
     margin: 0;
     border-top: 5px solid  rgb(63, 36, 32) ;
@@ -60,11 +60,9 @@ h2{
     position: absolute;
     width: 350px;
     height: 250px;
-    /* background-color: rgb(127, 255, 212); */
-    background-image: url(../image/cert-html.jpg);
     background-size: cover;
-    justify-content: space-between;
     margin:0;
+    padding: 0;
     border: 0px solid black;
     left:calc(50% - 175px);
     top: 25%;
@@ -78,15 +76,16 @@ h2{
     background-size: cover;
 }
 .certif:nth-child(3){
-    left: 70%;
+    left:calc(80% - 175px);
     top: 50%;
+    background-image: url(../image/cert-html.jpg);
 }
 .certif:nth-child(4){
     top: 75%;
 }
 #fleche{
     position: absolute;
-    left: calc(50% - 12.5px);
+    left: calc(50% - 25px);;
     width: 50px;
     height: 25px;
     border: 1px dashed black;
@@ -108,4 +107,56 @@ footer{
 .certif:hover{
     width: 25em;
     height: 20em;
+}
+#lab-ch{
+    display: none;
+    margin: 5px;
+    background: linear-gradient( rgb(63, 36, 32)0%, rgb(63, 36, 32)20%, transparent 21%, transparent 40%, rgb(63, 36, 32) 41%,
+     rgb(63, 36, 32)60%, transparent 61%, transparent 80%, rgb(63, 36, 32) 81%,  rgb(63, 36, 32) 100%);
+     opacity: 0.9;
+    border-radius: 15%;
+    width: 20px;
+    height: 20px;
+}
+#ch{
+    display: none;
+}
+@media (max-width:960px){
+    header{
+        display: none;
+    }
+    nav ul{
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        width: auto;
+        transform: translate(-1000px,0);
+        transition: all 1s ease;
+        padding: 0;
+        margin: 0;
+    }
+    .certif{
+        display: block;
+        position: initial;
+        margin: 2% 15%;
+        width: 75%;
+
+    }
+    h2{
+        margin: 15%;
+        font-size: 2.5em;
+    }
+    #ch:checked+nav ul{
+        transform: translate(0px,0);
+    }
+    #lab-ch{
+        display: block;
+    }
+    .container{
+        height: 100%;
+    }
+    .certif:hover{
+       width: auto;
+    }
 }

@@ -50,7 +50,7 @@ td, th{
     width: 50%;
     border: 1px solid rgb(51, 51, 51);
     padding:40px;
-    box-shadow: 8px, 8px, 5px black;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.39);
     background-image: linear-gradient(180deg, rgba(145, 98, 45, 0.726), rgba(172, 122, 30, 0.616) 40%, rgba(165, 101, 48, 0.603));
 }
 #First-post{
@@ -202,7 +202,7 @@ a{
 }
 #fleche{
     position: absolute;
-    left: calc(50% - 12.5px);
+    left: calc(50% - 25px);
     width: 50px;
     height: 25px;
     border: 1px dashed black;
@@ -220,4 +220,80 @@ footer{
     padding-right: 5px;
     padding-bottom: 20px ;
     padding-left: 5px;
+}
+#lab-ch{
+    display: none;
+    margin: 5px;
+    background: linear-gradient( rgb(63, 36, 32)0%, rgb(63, 36, 32)20%, transparent 21%, transparent 40%, rgb(63, 36, 32) 41%,
+     rgb(63, 36, 32)60%, transparent 61%, transparent 80%, rgb(63, 36, 32) 81%,  rgb(63, 36, 32) 100%);
+     opacity: 0.9;
+    border-radius: 15%;
+    width: 20px;
+    height: 20px;
+}
+#ch{
+    display: none;
+}
+@media (max-width:960px){
+    header{
+        display: none;
+    }
+    nav ul{
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        width: auto;
+        transform: translate(-1000px,0);
+        transition: all 1s ease;
+        padding: 0;
+        margin: 0;
+    }
+    .certif{
+        display: block;
+        position: initial;
+        margin: 2% 15%;
+        width: 75%;
+
+    }
+    h2{
+        margin: 15%;
+        font-size: 2.5em;
+    }
+    #ch:checked+nav ul{
+        transform: translate(0px,0);
+    }
+    #lab-ch{
+        display: block;
+    }
+    .planning-noob{
+        display: none;
+    }
+    .Qui-suisje{
+        height: 90em;
+        width: 100%;
+    }
+    #First-post, #First-post p, .ombrage, .Second-post, .Second-post p, #Source, .Second-post ol{
+        display: block;
+        position: initial;
+        padding: 0px;
+        margin: 10px 10px;
+        width: 90%;
+        height: auto;
+        border: none;
+        border-radius: 5%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .Qui-suisje h1,.Qui-suisje h2,.Qui-suisje, .Qui-suisje h3,.Qui-suisje h6{
+        display: block;
+        position: initial;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    .recadrage{
+        padding: 5px;
+        margin: 5px;
+    }
 }
