@@ -305,7 +305,7 @@ footer{
         margin: 5%;
         padding: 5%;
     }
-    .grid > div:hover div:focus div:active{
+    .grid > div:hover, div:focus, div:active{
         width: 100%;
         height: 100%;
         transform: none;
