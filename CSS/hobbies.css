@@ -216,7 +216,7 @@ a{
     grid-area: seven;
     text-align: center;
 }
-.pro a:hover,.pro a:focus,.pro a:active{
+.pro a:hover, .pro a:focus, .pro a:active{
     color: rgb(238, 156, 156);
     font-weight: 900;
     text-decoration: none;
