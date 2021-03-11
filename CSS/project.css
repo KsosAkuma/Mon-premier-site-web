@@ -300,6 +300,7 @@ footer{
     .grid > div{
         margin: 15% 0%;
         width: 95%;
+        transition: all 0s ease-out;
     }
     .titre_projet{
         margin: 5%;
